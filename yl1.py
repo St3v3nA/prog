@@ -1,6 +1,7 @@
-a = int(input('kroon: '))
+eek = int(input('Sisesta summa kroonides: '))
 
-print(a / 10.9)
-round()
+eur = eek / 15.6466
 
-print(a)
+eur = round(eur, 2)
+
+print(eur)

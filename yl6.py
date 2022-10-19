@@ -1,0 +1,13 @@
+from cgi import print_arguments
+
+
+num1=int(input("Sisesta esimene number: "))
+num2=int(input("sisesta teine number: "))
+num3=int(input("Sisesta kolmas number: "))
+if (num1 >= num2) and (num1 >= num3):
+    largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+    largest= num2
+else:
+    largest = num3
+print("Kõige suurem number -", largest)        

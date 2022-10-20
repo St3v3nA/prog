@@ -1,8 +1,8 @@
-num1=int(input("Sisesta esimene number: "))
-num2=int(input("Sisesta teine number: "))
+num1=int(input("Sisesta number a: "))
+num2=int(input("Sisesta number b: "))
 if(num1<num2):
-    print("{} On väiksem".format(num1))
+    print("a On väiksem")
 elif(num2<num1):
-    print("{} On väiksem".format(num2))
+    print("b On väiksem")
 else:
-    print("{} ja {} on võrdsed".format(num1,num2))
+    print("a ja b on võrdsed")
